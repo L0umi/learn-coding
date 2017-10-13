@@ -1,0 +1,17 @@
+- Title = <h1>TITLE<!h1>
+- Change color style of text = <h1 style="color:red">TEXT WILL BE RED</h1>
+- Paragraph = <p>WRITE YOUR TEXT<!p>
+- Make invisible text <!-- YOUR INVISIBLE CODE OR TEXT -->
+- Create CSS style element = e.g. = <style> h2 {color: red;} </style> <!-- means all text in h2 will be red / curly braces is done by option/alt 8 and 9 -->
+- Use a CSS Class to Style an Element = <style> .red-text {color: red;} </style>
+  - THEN = e.g. = <h2 class="red-text">TEXT WILL BE RED</h2>
+- Change the Font Size of an Element = <style> p {font-size: 16px;} </style> <!-- attributed to all p -->
+- Set the Font Family of an Element = For example, if you wanted to set your h2 element's font to Sans-serif, you would use the following CSS: h2 {font-family: Sans-serif;}
+- Add an image = <img src="https://THE LINK TO THE IMAGE" alt="DESCRIPTION">
+- Size your Images = CSS has a property called width that controls an element's width. Just like with fonts, we'll use px (pixels) to specify the image's width.= For example, if we wanted to create a CSS class called `larger-image` that gave HTML elements a width of 500 pixels, we'd use: <style> .larger-image {width: 500px;} </style>
+- Add Borders Around your Elements = CSS borders have properties like style, color and width = For example, if we wanted to create a red, 5 pixel border around an HTML element, we could use this class: <style> .thin-red-border {border-color: red; border-width: 5px; border-style: solid;} </style> = Remember that you can apply multiple classes to an element by separating each class with a space within its class attribute. For example: <img class="class1 class2">
+- Add Rounded Corners with a Border Radius = We can round out those corners with a CSS property called border-radius = You can specify a border-radius with pixels = <style> .border-radius {border-radius: 10px;} </style>
+- Make Circular Images with a Border Radius = In addition to pixels, you can also specify a border-radius using a percentage = <style> .border-radius {border-radius: 50%;} </style>
+- Link to External Pages with Anchor Elements = a elements, also known as anchor elements, are used to link to content outside of the current page = <p> <a href="http://freecodecamp.org"> link to Free Code Camp</a> </p>
+- Nest an Anchor Element within a Paragraph = Nesting just means putting one element inside of another element = <p>Click here for <a href="http://www.freecatphotoapp.com">cat photos</a>.</p>
+- 

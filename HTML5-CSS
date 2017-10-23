@@ -1,6 +1,6 @@
 FROM FREECODECAMP.ORG
 
-#HTML5 and CSS
+# HTML5 and CSS
 
 - Title = <h1>TITLE<!h1>
 - Change color style of text = <h1 style="color:red">TEXT WILL BE RED</h1>
